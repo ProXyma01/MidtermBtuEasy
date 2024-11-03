@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#5C14DB"
+        android:text="@string/midtermbtueasy"
+        android:paddingStart="16dp"
+        android:gravity="center_vertical"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        tools:ignore="RtlSymmetry" />
+
+    <ImageView
+        android:id="@+id/person_icon"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/person_icon"
+        android:layout_marginTop="30dp"
+        android:scaleType="centerCrop"
+        tools:ignore="ContentDescription" />
+
+    <EditText
+        android:id="@+id/email_edit_text"
+        android:layout_width="247dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:layout_gravity="center_horizontal"
+        android:inputType="text"
+        android:hint="@string/enter_your_email_here"
+        tools:ignore="Autofill,LabelFor,TextFields"
+        android:layout_marginTop="60dp"/>
+
+
+    <Button
+        android:id="@+id/OkayBtn"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button_background"
+        android:textColor="@color/white"
+        android:text="@string/okay" />
+
+    <Button
+        android:id="@+id/NextBtn"
+        android:layout_width="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/button_background"
+        android:textColor="@color/white"
+        android:text="@string/next" />
+</LinearLayout>
